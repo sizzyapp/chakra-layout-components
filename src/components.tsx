@@ -4,6 +4,7 @@ import { fixedHeight, fixedWidth } from 'styled-mixins';
 import { motion } from 'framer-motion';
 import { CommonProps } from './types';
 import { getHorizontalProps, getVerticalProps } from './props';
+import React, { forwardRef } from 'react';
 
 const spaceUnit = 1;
 
@@ -12,9 +13,17 @@ export const Space = styled.div<{ size: number }>(({ size = 1 }) => ({
   ...fixedWidth(spaceUnit * size),
 }));
 
-export const Horizontal = styled(OriginalBox)<CommonProps>(getHorizontalProps);
+const HorizontalSC = styled(OriginalBox)<CommonProps>(getHorizontalProps);
 
-export const Vertical = styled(OriginalBox)<CommonProps>(getVerticalProps);
+const VerticalSC = styled(OriginalBox)<CommonProps>(getVerticalProps);
+
+export const Horizontal: React.FC<CommonProps> = forwardRef((props, ref) => (
+  <HorizontalSC {...props} ref={ref} />
+));
+
+export const Vertical: React.FC<CommonProps> = forwardRef((props, ref) => (
+  <VerticalSC {...props} ref={ref} />
+));
 
 export const MHorizontal = motion(Horizontal);
 

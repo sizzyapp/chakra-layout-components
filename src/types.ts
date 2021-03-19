@@ -1,13 +1,14 @@
 import { CSSProperties } from 'react';
 import { CSSObject } from '@emotion/styled';
+import { BoxProps } from '@chakra-ui/react';
 
-export interface CommonProps {
+export interface CommonProps extends BoxProps {
   wrap?: boolean;
   spaceBetween?: boolean;
   spaceAround?: boolean;
   justifyEnd?: boolean;
   justifyStart?: boolean;
-  flex?: CSSObject['flex'];
+  flex?: CSSObject['flex'] & BoxProps['flex'];
   spaceFirst?: number;
   spacing?: number | string;
   spaceBottom?: boolean;
