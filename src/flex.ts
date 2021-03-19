@@ -1,4 +1,5 @@
-export const flex: Record<string, Record<string, any>> = {
+import { CSSObject } from '@emotion/styled';
+export const flex: Record<string, CSSObject> = {
   horizontal: {
     display: 'flex',
     flexDirection: 'row',
