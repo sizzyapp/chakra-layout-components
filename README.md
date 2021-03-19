@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to layout-styled-components 👋</h1>
+<h1 align="center">Welcome to chakra-layout-components 👋</h1>
 <p>
   <a href="https://www.npmjs.com/package/chakra-layout-components" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/chakra-layout-components.svg">
