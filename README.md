@@ -1,4 +1,7 @@
 <h1 align="center">Welcome to chakra-layout-components 👋</h1>
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p>
   <a href="https://www.npmjs.com/package/chakra-layout-components" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/chakra-layout-components.svg">
@@ -120,3 +123,24 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://praneet.dev"><img src="https://avatars.githubusercontent.com/u/23721710?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Praneet Rohida</b></sub></a><br /><a href="#infra-praneetrohida" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/sizzyapp/chakra-layout-components/commits?author=praneetrohida" title="Tests">⚠️</a> <a href="https://github.com/sizzyapp/chakra-layout-components/commits?author=praneetrohida" title="Code">💻</a></td>
+    <td align="center"><a href="http://kitze.io"><img src="https://avatars.githubusercontent.com/u/1160594?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kitze</b></sub></a><br /><a href="#infra-kitze" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/sizzyapp/chakra-layout-components/commits?author=kitze" title="Tests">⚠️</a> <a href="https://github.com/sizzyapp/chakra-layout-components/commits?author=kitze" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
