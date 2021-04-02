@@ -63,14 +63,6 @@ See it in browser at http://localhost:1234
 yarn run test
 ```
 
-## Author
-
-👤 **Kitze**
-
-* Website: https://youtube.com/kitze
-* Twitter: [@thekitze](https://twitter.com/@thekitze)
-* Github: [@kitze](https://github.com/kitze)
-
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/kitze/layout-styled-components/issues).
