@@ -94,7 +94,7 @@ const App = () => {
 
 Produces:
 
-![ScreenShot](./ScreenShot.png)
+![ScreenShot](./example/Screenshot.png)
 
 ## Install
 
