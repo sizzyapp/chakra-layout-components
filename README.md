@@ -17,6 +17,8 @@ This project simplify uses `horizontal`, `grid`,`vertical` and `space` for [`Cha
 
 ## Props
 
+These props are applicable to both Horizontal and Vertical components.
+
 | Prop            |     Type      |
 | --------------- | :-----------: |
 | wrap            |    boolean    |
@@ -41,26 +43,48 @@ This project simplify uses `horizontal`, `grid`,`vertical` and `space` for [`Cha
 | fullH           |    boolean    |
 | debug           |    boolean    |
 
+In addition to this, the components also support Chakra UI's [style props](https://chakra-ui.com/docs/features/style-props).
+
 ## Example
 
-See [example/index.tsx](./example/index.tsx).
+
+
+[![Edit Chakra Layout Components Demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/chakra-layout-components-demo-vrd18?fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.js&theme=dark)
 
 ```js
 const App = () => {
   return (
-    <div>
-      <Horizontal spacing={10} centerV>
-        <div>Hello</div>
-        <div>World</div>
-      </Horizontal>
+    <L.Vertical spacing={50}>
+      <L.Vertical spacing={20} bg="teal.100">
+        <Text> We </Text>
+        <Text> are </Text>
+        <Text> Vertical </Text>
+      </L.Vertical>
 
-      <hr />
+      <L.Horizontal spaceBetween bg="pink.100" p={4}>
+        <Text> We </Text>
+        <Text> are </Text>
+        <Text> Horizontal </Text>
+      </L.Horizontal>
 
-      <Vertical center>
-        <div>Goodbye</div>
-        <div>World</div>
-      </Vertical>
-    </div>
+      <L.Space size={50} />
+
+      <L.Horizontal centerV h={200} w={400} debug>
+        <Text> I am centered vertically </Text>
+      </L.Horizontal>
+
+      <L.Horizontal centerH h={200} w={400} debug>
+        <Text> I am centered Horizontally </Text>
+      </L.Horizontal>
+
+      <L.Horizontal center h={200} w={400} debug>
+        <Text> I am just centered </Text>
+      </L.Horizontal>
+
+      <L.Vertical fullW debug>
+        <Text> I will take full width </Text>
+      </L.Vertical>
+    </L.Vertical>
   );
 };
 ```
