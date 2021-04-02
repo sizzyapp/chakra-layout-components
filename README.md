@@ -13,7 +13,33 @@
 
 > chakra-ui Layout Helper Components
 
-This project simplify uses `horizontal`, `grid`,`vertical` and `space` [`chakra-ui`](https://chakra-ui.com/).
+This project simplify uses `horizontal`, `grid`,`vertical` and `space` for [`Chakra UI`](https://chakra-ui.com/).
+
+## Props
+
+| Prop            |     Type      |
+| --------------- | :-----------: |
+| wrap            |    boolean    |
+| spaceBetween    |    boolean    |
+| spaceAround     |    boolean    |
+| justifyEnd      |    boolean    |
+| justifyStart    |    boolean    |
+| flex            |    number     |
+| spaceFirst      |    number     |
+| spacing         |    number     |
+| spaceBottom     |    boolean    |
+| alignStart      |    boolean    |
+| alignItemsStart |    boolean    |
+| center          |    boolean    |
+| centerV         |    boolean    |
+| centerH         |    boolean    |
+| noShrink        |    boolean    |
+| styles          | CSSProperties |
+| invert          |    boolean    |
+| reverse         |    boolean    |
+| fullW           |    boolean    |
+| fullH           |    boolean    |
+| debug           |    boolean    |
 
 ## Example
 
@@ -70,6 +96,3 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
