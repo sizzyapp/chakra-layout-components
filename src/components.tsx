@@ -17,13 +17,15 @@ const HorizontalSC = styled(OriginalBox)<CommonProps>(getHorizontalProps);
 
 const VerticalSC = styled(OriginalBox)<CommonProps>(getVerticalProps);
 
-export const Horizontal: React.FC<CommonProps> = forwardRef((props, ref) => (
-  <HorizontalSC {...props} ref={ref} />
-));
+export const Horizontal: React.FC<CommonProps> = forwardRef<
+  HTMLDivElement,
+  CommonProps
+>((props, ref) => <HorizontalSC {...props} ref={ref} />);
 
-export const Vertical: React.FC<CommonProps> = forwardRef((props, ref) => (
-  <VerticalSC {...props} ref={ref} />
-));
+export const Vertical: React.FC<CommonProps> = forwardRef<
+  HTMLDivElement,
+  CommonProps
+>((props, ref) => <VerticalSC {...props} ref={ref} />);
 
 export const MHorizontal = motion(Horizontal);
 

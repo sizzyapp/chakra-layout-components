@@ -1,4 +1,4 @@
-import { CSSProperties } from 'react';
+import { CSSProperties, Ref } from 'react';
 import { CSSObject } from '@emotion/styled';
 import { BoxProps } from '@chakra-ui/react';
 
@@ -24,6 +24,7 @@ export interface CommonProps extends BoxProps {
   fullW?: boolean;
   fullH?: boolean;
   debug?: boolean;
+  ref?: Ref<HTMLDivElement>;
 }
 
 export enum margin {
