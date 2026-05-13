@@ -59,7 +59,7 @@
     "styled-mixins": "^0.1.10",
     "tsdx": "^0.14.1",
     "tslib": "^2.1.0",
-    "typescript": "^4.2.3"
+    "typescript": "^6.0.3"
   },
   "peerDependencies": {
     "@chakra-ui/react": "^1.3.4",
